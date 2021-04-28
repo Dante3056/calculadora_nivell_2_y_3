@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gugi', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, aquamarine,yellow, coral);
+}
+.container{
+    width: 600px;
+    height: 100vh;
+    margin: 0px auto;
+    padding-top: 25px;
+    background-color: rgb(15, 64, 97);
+    border: 4px solid aquamarine;
+}
+
+.display > input{
+    width: 450px;
+    height: 55px;
+    margin: 30px 80px;
+    padding: 7px;
+    background-color: #000;
+    color: rgb(162, 255, 101);
+    font-size: 2.6rem;
+    text-align: right;
+    border: 3px solid aquamarine;
+    border-radius: 8px;
+    overflow-x: hidden;
+}
+.botonera{
+    display: grid;
+    margin-left: 75px;
+    align-items: center;
+    max-height: 50%;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+.botonera > button{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 3px solid aquamarine;
+    border-radius: 50%;
+}
+#btnigual{
+    position: absolute;
+    width: 75px;
+    height: 375px;
+    top: 165px;    
+    right: 340px;
+    margin: 10px 35px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(243, 122, 41);
+    color: #fff;
+}
